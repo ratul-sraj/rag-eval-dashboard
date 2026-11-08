@@ -1,0 +1,50 @@
+# Regression-gate thresholds for the evalkit CI pipeline.
+#
+# direction : 'higher' = larger is better, 'lower' = smaller is better
+# min/max   : absolute floor / ceiling (breach is always a regression)
+# max_regression : tolerable change vs baseline. For 'higher' it is an absolute
+#                  drop; for 'lower' it is a fractional increase.
+# on_missing: fail | warn | ignore  (behaviour when a metric is absent)
+
+on_missing: fail
+
+metrics:
+  recall@5:
+    direction: higher
+    min: 0.60
+    max_regression: 0.05
+
+  citation_precision:
+    direction: higher
+    min: 0.60
+    max_regression: 0.05
+
+  key_fact_containment:
+    direction: higher
+    min: 0.85
+    max_regression: 0.05
+
+  sql_execution_match:
+    direction: higher
+    min: 0.60
+    max_regression: 0.05
+
+  task_success_rate:
+    direction: higher
+    min: 0.75
+    max_regression: 0.04
+
+  error_rate:
+    direction: lower
+    max: 0.10
+    max_regression: 0.02
+
+  latency_p95_ms:
+    direction: lower
+    max: 800
+    max_regression: 0.25
+
+  cost_total_usd:
+    direction: lower
+    max: 1.00
+    max_regression: 0.30
