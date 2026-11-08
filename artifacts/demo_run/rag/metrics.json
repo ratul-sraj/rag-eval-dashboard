@@ -1,0 +1,3416 @@
+[
+  {
+    "trace_id": "demo-2026-01-rag-rag_000",
+    "case_id": "rag_000",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit000_a",
+      "manual_unit000_b",
+      "manual_unit001_x",
+      "manual_unit002_x",
+      "manual_unit003_x"
+    ],
+    "relevant": [
+      "manual_unit000_a",
+      "manual_unit000_b"
+    ],
+    "answer": "According to manual_unit000_a, the flange bolts are torqued to 10 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "10 nm"
+    ],
+    "citations": [
+      "manual_unit000_a",
+      "manual_unit000_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 240.0,
+    "cost_usd": 0.00054,
+    "tokens_in": 900,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_001",
+    "case_id": "rag_001",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit004_x",
+      "manual_unit001_a",
+      "manual_unit001_b",
+      "manual_unit005_x",
+      "manual_unit006_x"
+    ],
+    "relevant": [
+      "manual_unit001_a",
+      "manual_unit001_b"
+    ],
+    "answer": "According to manual_unit001_a, the flange bolts are torqued to 11 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "11 nm"
+    ],
+    "citations": [
+      "manual_unit001_a",
+      "manual_unit001_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 192.0,
+    "cost_usd": 0.000571,
+    "tokens_in": 945,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_002",
+    "case_id": "rag_002",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit002_a",
+      "manual_unit007_x",
+      "manual_unit008_x",
+      "manual_unit009_x",
+      "manual_unit010_x"
+    ],
+    "relevant": [
+      "manual_unit002_a",
+      "manual_unit002_b"
+    ],
+    "answer": "According to manual_unit002_a, the flange bolts are torqued to 12 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "12 nm"
+    ],
+    "citations": [
+      "manual_unit002_a",
+      "manual_unit002_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 204.0,
+    "cost_usd": 0.000603,
+    "tokens_in": 990,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_003",
+    "case_id": "rag_003",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit010_x",
+      "manual_unit011_x",
+      "manual_unit003_a",
+      "manual_unit003_b",
+      "manual_unit012_x"
+    ],
+    "relevant": [
+      "manual_unit003_a",
+      "manual_unit003_b"
+    ],
+    "answer": "According to manual_unit003_a, the flange bolts are torqued to 13 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "13 nm"
+    ],
+    "citations": [
+      "manual_unit003_a",
+      "manual_unit003_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 216.0,
+    "cost_usd": 0.000634,
+    "tokens_in": 1035,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_004",
+    "case_id": "rag_004",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit013_x",
+      "manual_unit004_a",
+      "manual_unit014_x",
+      "manual_unit015_x",
+      "manual_unit016_x"
+    ],
+    "relevant": [
+      "manual_unit004_a",
+      "manual_unit004_b"
+    ],
+    "answer": "According to manual_unit004_a, the flange bolts are torqued to 14 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "14 nm"
+    ],
+    "citations": [
+      "manual_unit004_a",
+      "manual_unit004_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 228.0,
+    "cost_usd": 0.000666,
+    "tokens_in": 1080,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_005",
+    "case_id": "rag_005",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit005_a",
+      "manual_unit016_x",
+      "manual_unit017_x",
+      "manual_unit018_x",
+      "manual_unit005_b"
+    ],
+    "relevant": [
+      "manual_unit005_a",
+      "manual_unit005_b"
+    ],
+    "answer": "Per manual_unit005_a, the bolts are tightened to the documented specification and the gear oil is ISO VG graded.",
+    "must_contain": [
+      "15 nm"
+    ],
+    "citations": [
+      "manual_unit005_a",
+      "manual_unit005_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 240.0,
+    "cost_usd": 0.000697,
+    "tokens_in": 1125,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 0.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_006",
+    "case_id": "rag_006",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit019_x",
+      "manual_unit020_x",
+      "manual_unit021_x",
+      "manual_unit006_a",
+      "manual_unit022_x"
+    ],
+    "relevant": [
+      "manual_unit006_a",
+      "manual_unit006_b"
+    ],
+    "answer": "According to manual_unit006_a, the flange bolts are torqued to 16 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "16 nm"
+    ],
+    "citations": [
+      "manual_unit006_a",
+      "manual_unit006_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 252.0,
+    "cost_usd": 0.000729,
+    "tokens_in": 1170,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_007",
+    "case_id": "rag_007",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit022_x",
+      "manual_unit007_a",
+      "manual_unit023_x",
+      "manual_unit024_x",
+      "manual_unit025_x"
+    ],
+    "relevant": [
+      "manual_unit007_a",
+      "manual_unit007_b"
+    ],
+    "answer": "According to manual_unit007_a, the flange bolts are torqued to 17 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "17 nm"
+    ],
+    "citations": [
+      "manual_unit007_a",
+      "manual_unit035_x"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 264.0,
+    "cost_usd": 0.000603,
+    "tokens_in": 900,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_008",
+    "case_id": "rag_008",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit025_x",
+      "manual_unit008_b",
+      "manual_unit026_x",
+      "manual_unit027_x",
+      "manual_unit028_x"
+    ],
+    "relevant": [
+      "manual_unit008_a",
+      "manual_unit008_b"
+    ],
+    "answer": "According to manual_unit008_a, the flange bolts are torqued to 18 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "18 nm"
+    ],
+    "citations": [
+      "manual_unit008_a",
+      "manual_unit008_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 276.0,
+    "cost_usd": 0.000634,
+    "tokens_in": 945,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_009",
+    "case_id": "rag_009",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit028_x",
+      "manual_unit029_x",
+      "manual_unit009_a",
+      "manual_unit030_x",
+      "manual_unit031_x"
+    ],
+    "relevant": [
+      "manual_unit009_a",
+      "manual_unit009_b"
+    ],
+    "answer": "According to manual_unit009_a, the flange bolts are torqued to 19 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "19 nm"
+    ],
+    "citations": [
+      "manual_unit009_a",
+      "manual_unit009_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 288.0,
+    "cost_usd": 0.000585,
+    "tokens_in": 990,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_010",
+    "case_id": "rag_010",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit010_a",
+      "manual_unit010_b",
+      "manual_unit031_x",
+      "manual_unit032_x",
+      "manual_unit033_x"
+    ],
+    "relevant": [
+      "manual_unit010_a",
+      "manual_unit010_b"
+    ],
+    "answer": "According to manual_unit010_a, the flange bolts are torqued to 20 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "20 nm"
+    ],
+    "citations": [
+      "manual_unit010_a",
+      "manual_unit010_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 300.0,
+    "cost_usd": 0.000616,
+    "tokens_in": 1035,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_011",
+    "case_id": "rag_011",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit034_x",
+      "manual_unit011_a",
+      "manual_unit011_b",
+      "manual_unit035_x",
+      "manual_unit036_x"
+    ],
+    "relevant": [
+      "manual_unit011_a",
+      "manual_unit011_b"
+    ],
+    "answer": "According to manual_unit011_a, the flange bolts are torqued to 21 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "21 nm"
+    ],
+    "citations": [
+      "manual_unit011_a",
+      "manual_unit011_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 372.0,
+    "cost_usd": 0.000648,
+    "tokens_in": 1080,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_012",
+    "case_id": "rag_012",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit012_a",
+      "manual_unit037_x",
+      "manual_unit038_x",
+      "manual_unit039_x",
+      "manual_unit040_x"
+    ],
+    "relevant": [
+      "manual_unit012_a",
+      "manual_unit012_b"
+    ],
+    "answer": "According to manual_unit012_a, the flange bolts are torqued to 22 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "22 nm"
+    ],
+    "citations": [
+      "manual_unit012_a",
+      "manual_unit012_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 324.0,
+    "cost_usd": 0.000679,
+    "tokens_in": 1125,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_013",
+    "case_id": "rag_013",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit040_x",
+      "manual_unit041_x",
+      "manual_unit013_a",
+      "manual_unit013_b",
+      "manual_unit042_x"
+    ],
+    "relevant": [
+      "manual_unit013_a",
+      "manual_unit013_b"
+    ],
+    "answer": "According to manual_unit013_a, the flange bolts are torqued to 23 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "23 nm"
+    ],
+    "citations": [
+      "manual_unit013_a",
+      "manual_unit013_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 336.0,
+    "cost_usd": 0.000711,
+    "tokens_in": 1170,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_014",
+    "case_id": "rag_014",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit043_x",
+      "manual_unit014_a",
+      "manual_unit044_x",
+      "manual_unit045_x",
+      "manual_unit046_x"
+    ],
+    "relevant": [
+      "manual_unit014_a",
+      "manual_unit014_b"
+    ],
+    "answer": "According to manual_unit014_a, the flange bolts are torqued to 24 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "24 nm"
+    ],
+    "citations": [
+      "manual_unit014_a",
+      "manual_unit014_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 348.0,
+    "cost_usd": 0.000585,
+    "tokens_in": 900,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_015",
+    "case_id": "rag_015",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit015_a",
+      "manual_unit046_x",
+      "manual_unit047_x",
+      "manual_unit048_x",
+      "manual_unit015_b"
+    ],
+    "relevant": [
+      "manual_unit015_a",
+      "manual_unit015_b"
+    ],
+    "answer": "According to manual_unit015_a, the flange bolts are torqued to 25 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "25 nm"
+    ],
+    "citations": [
+      "manual_unit015_a",
+      "manual_unit015_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 360.0,
+    "cost_usd": 0.000616,
+    "tokens_in": 945,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_016",
+    "case_id": "rag_016",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit049_x",
+      "manual_unit050_x",
+      "manual_unit051_x",
+      "manual_unit016_a",
+      "manual_unit052_x"
+    ],
+    "relevant": [
+      "manual_unit016_a",
+      "manual_unit016_b"
+    ],
+    "answer": "According to manual_unit016_a, the flange bolts are torqued to 26 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "26 nm"
+    ],
+    "citations": [
+      "manual_unit016_a",
+      "manual_unit016_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 372.0,
+    "cost_usd": 0.000648,
+    "tokens_in": 990,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_017",
+    "case_id": "rag_017",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit052_x",
+      "manual_unit017_a",
+      "manual_unit053_x",
+      "manual_unit054_x",
+      "manual_unit055_x"
+    ],
+    "relevant": [
+      "manual_unit017_a",
+      "manual_unit017_b"
+    ],
+    "answer": "I do not have enough information to answer that.",
+    "must_contain": [
+      "27 nm"
+    ],
+    "citations": [],
+    "refused": true,
+    "unanswerable": false,
+    "latency_ms": 384.0,
+    "cost_usd": 0.000679,
+    "tokens_in": 1035,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 0.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_018",
+    "case_id": "rag_018",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit055_x",
+      "manual_unit018_b",
+      "manual_unit056_x",
+      "manual_unit057_x",
+      "manual_unit058_x"
+    ],
+    "relevant": [
+      "manual_unit018_a",
+      "manual_unit018_b"
+    ],
+    "answer": "According to manual_unit018_a, the flange bolts are torqued to 28 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "28 nm"
+    ],
+    "citations": [
+      "manual_unit018_a",
+      "manual_unit018_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 396.0,
+    "cost_usd": 0.00063,
+    "tokens_in": 1080,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_019",
+    "case_id": "rag_019",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit058_x",
+      "manual_unit059_x",
+      "manual_unit019_a",
+      "manual_unit060_x",
+      "manual_unit061_x"
+    ],
+    "relevant": [
+      "manual_unit019_a",
+      "manual_unit019_b"
+    ],
+    "answer": "According to manual_unit019_a, the flange bolts are torqued to 29 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "29 nm"
+    ],
+    "citations": [
+      "manual_unit019_a",
+      "manual_unit019_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 408.0,
+    "cost_usd": 0.000661,
+    "tokens_in": 1125,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_020",
+    "case_id": "rag_020",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit020_a",
+      "manual_unit020_b",
+      "manual_unit061_x",
+      "manual_unit062_x",
+      "manual_unit063_x"
+    ],
+    "relevant": [
+      "manual_unit020_a",
+      "manual_unit020_b"
+    ],
+    "answer": "According to manual_unit020_a, the flange bolts are torqued to 30 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "30 nm"
+    ],
+    "citations": [
+      "manual_unit020_a",
+      "manual_unit020_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 420.0,
+    "cost_usd": 0.000693,
+    "tokens_in": 1170,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_021",
+    "case_id": "rag_021",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit064_x",
+      "manual_unit021_a",
+      "manual_unit021_b",
+      "manual_unit065_x",
+      "manual_unit066_x"
+    ],
+    "relevant": [
+      "manual_unit021_a",
+      "manual_unit021_b"
+    ],
+    "answer": "According to manual_unit021_a, the flange bolts are torqued to 31 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "31 nm"
+    ],
+    "citations": [
+      "manual_unit021_a",
+      "manual_unit021_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 432.0,
+    "cost_usd": 0.000567,
+    "tokens_in": 900,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_022",
+    "case_id": "rag_022",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit022_a",
+      "manual_unit067_x",
+      "manual_unit068_x",
+      "manual_unit069_x",
+      "manual_unit070_x"
+    ],
+    "relevant": [
+      "manual_unit022_a",
+      "manual_unit022_b"
+    ],
+    "answer": "According to manual_unit022_a, the flange bolts are torqued to 32 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "32 nm"
+    ],
+    "citations": [
+      "manual_unit022_a",
+      "manual_unit022_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 504.0,
+    "cost_usd": 0.000598,
+    "tokens_in": 945,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_023",
+    "case_id": "rag_023",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit070_x",
+      "manual_unit071_x",
+      "manual_unit023_a",
+      "manual_unit023_b",
+      "manual_unit072_x"
+    ],
+    "relevant": [
+      "manual_unit023_a",
+      "manual_unit023_b"
+    ],
+    "answer": "According to manual_unit023_a, the flange bolts are torqued to 33 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "33 nm"
+    ],
+    "citations": [
+      "manual_unit023_a",
+      "manual_unit023_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 456.0,
+    "cost_usd": 0.00063,
+    "tokens_in": 990,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_024",
+    "case_id": "rag_024",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit073_x",
+      "manual_unit024_a",
+      "manual_unit074_x",
+      "manual_unit075_x",
+      "manual_unit076_x"
+    ],
+    "relevant": [
+      "manual_unit024_a",
+      "manual_unit024_b"
+    ],
+    "answer": "According to manual_unit024_a, the flange bolts are torqued to 34 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "34 nm"
+    ],
+    "citations": [
+      "manual_unit024_a",
+      "manual_unit024_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 468.0,
+    "cost_usd": 0.000661,
+    "tokens_in": 1035,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_025",
+    "case_id": "rag_025",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit025_a",
+      "manual_unit076_x",
+      "manual_unit077_x",
+      "manual_unit078_x",
+      "manual_unit025_b"
+    ],
+    "relevant": [
+      "manual_unit025_a",
+      "manual_unit025_b"
+    ],
+    "answer": "According to manual_unit025_a, the flange bolts are torqued to 35 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "35 nm"
+    ],
+    "citations": [
+      "manual_unit025_a",
+      "manual_unit025_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 180.0,
+    "cost_usd": 0.000693,
+    "tokens_in": 1080,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_026",
+    "case_id": "rag_026",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit079_x",
+      "manual_unit080_x",
+      "manual_unit081_x",
+      "manual_unit026_a",
+      "manual_unit082_x"
+    ],
+    "relevant": [
+      "manual_unit026_a",
+      "manual_unit026_b"
+    ],
+    "answer": "According to manual_unit026_a, the flange bolts are torqued to 36 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "36 nm"
+    ],
+    "citations": [
+      "manual_unit026_a",
+      "manual_unit030_x"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 192.0,
+    "cost_usd": 0.000724,
+    "tokens_in": 1125,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_027",
+    "case_id": "rag_027",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit082_x",
+      "manual_unit027_a",
+      "manual_unit083_x",
+      "manual_unit084_x",
+      "manual_unit085_x"
+    ],
+    "relevant": [
+      "manual_unit027_a",
+      "manual_unit027_b"
+    ],
+    "answer": "According to manual_unit027_a, the flange bolts are torqued to 37 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "37 nm"
+    ],
+    "citations": [
+      "manual_unit027_a",
+      "manual_unit027_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 204.0,
+    "cost_usd": 0.000675,
+    "tokens_in": 1170,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_028",
+    "case_id": "rag_028",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit085_x",
+      "manual_unit028_b",
+      "manual_unit086_x",
+      "manual_unit087_x",
+      "manual_unit088_x"
+    ],
+    "relevant": [
+      "manual_unit028_a",
+      "manual_unit028_b"
+    ],
+    "answer": "Per manual_unit028_a, the bolts are tightened to the documented specification and the gear oil is ISO VG graded.",
+    "must_contain": [
+      "38 nm"
+    ],
+    "citations": [
+      "manual_unit028_a",
+      "manual_unit028_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 216.0,
+    "cost_usd": 0.000549,
+    "tokens_in": 900,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 0.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_029",
+    "case_id": "rag_029",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit088_x",
+      "manual_unit089_x",
+      "manual_unit029_a",
+      "manual_unit090_x",
+      "manual_unit091_x"
+    ],
+    "relevant": [
+      "manual_unit029_a",
+      "manual_unit029_b"
+    ],
+    "answer": "According to manual_unit029_a, the flange bolts are torqued to 39 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "39 nm"
+    ],
+    "citations": [
+      "manual_unit029_a",
+      "manual_unit029_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 228.0,
+    "cost_usd": 0.00058,
+    "tokens_in": 945,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_030",
+    "case_id": "rag_030",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit030_a",
+      "manual_unit030_b",
+      "manual_unit091_x",
+      "manual_unit092_x",
+      "manual_unit093_x"
+    ],
+    "relevant": [
+      "manual_unit030_a",
+      "manual_unit030_b"
+    ],
+    "answer": "According to manual_unit030_a, the flange bolts are torqued to 40 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "40 nm"
+    ],
+    "citations": [
+      "manual_unit030_a",
+      "manual_unit030_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 240.0,
+    "cost_usd": 0.000612,
+    "tokens_in": 990,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_031",
+    "case_id": "rag_031",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit094_x",
+      "manual_unit031_a",
+      "manual_unit031_b",
+      "manual_unit095_x",
+      "manual_unit096_x"
+    ],
+    "relevant": [
+      "manual_unit031_a",
+      "manual_unit031_b"
+    ],
+    "answer": "According to manual_unit031_a, the flange bolts are torqued to 41 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "41 nm"
+    ],
+    "citations": [
+      "manual_unit031_a",
+      "manual_unit031_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 252.0,
+    "cost_usd": 0.000643,
+    "tokens_in": 1035,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_032",
+    "case_id": "rag_032",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit032_a",
+      "manual_unit097_x",
+      "manual_unit098_x",
+      "manual_unit099_x",
+      "manual_unit000_x"
+    ],
+    "relevant": [
+      "manual_unit032_a",
+      "manual_unit032_b"
+    ],
+    "answer": "According to manual_unit032_a, the flange bolts are torqued to 42 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "42 nm"
+    ],
+    "citations": [
+      "manual_unit032_a",
+      "manual_unit032_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 264.0,
+    "cost_usd": 0.000675,
+    "tokens_in": 1080,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_033",
+    "case_id": "rag_033",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit000_x",
+      "manual_unit001_x",
+      "manual_unit033_a",
+      "manual_unit033_b",
+      "manual_unit002_x"
+    ],
+    "relevant": [
+      "manual_unit033_a",
+      "manual_unit033_b"
+    ],
+    "answer": "According to manual_unit033_a, the flange bolts are torqued to 43 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "43 nm"
+    ],
+    "citations": [
+      "manual_unit033_a",
+      "manual_unit033_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 336.0,
+    "cost_usd": 0.000706,
+    "tokens_in": 1125,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_034",
+    "case_id": "rag_034",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit003_x",
+      "manual_unit034_a",
+      "manual_unit004_x",
+      "manual_unit005_x",
+      "manual_unit006_x"
+    ],
+    "relevant": [
+      "manual_unit034_a",
+      "manual_unit034_b"
+    ],
+    "answer": "According to manual_unit034_a, the flange bolts are torqued to 44 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "44 nm"
+    ],
+    "citations": [
+      "manual_unit034_a",
+      "manual_unit034_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 288.0,
+    "cost_usd": 0.000738,
+    "tokens_in": 1170,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_035",
+    "case_id": "rag_035",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit035_a",
+      "manual_unit006_x",
+      "manual_unit007_x",
+      "manual_unit008_x",
+      "manual_unit035_b"
+    ],
+    "relevant": [
+      "manual_unit035_a",
+      "manual_unit035_b"
+    ],
+    "answer": "According to manual_unit035_a, the flange bolts are torqued to 45 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "45 nm"
+    ],
+    "citations": [
+      "manual_unit035_a",
+      "manual_unit035_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 300.0,
+    "cost_usd": 0.000612,
+    "tokens_in": 900,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_036",
+    "case_id": "rag_036",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit009_x",
+      "manual_unit010_x",
+      "manual_unit011_x",
+      "manual_unit036_a",
+      "manual_unit012_x"
+    ],
+    "relevant": [
+      "manual_unit036_a",
+      "manual_unit036_b"
+    ],
+    "answer": "According to manual_unit036_a, the flange bolts are torqued to 46 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "46 nm"
+    ],
+    "citations": [
+      "manual_unit036_a",
+      "manual_unit036_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 312.0,
+    "cost_usd": 0.000562,
+    "tokens_in": 945,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_037",
+    "case_id": "rag_037",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit012_x",
+      "manual_unit037_a",
+      "manual_unit013_x",
+      "manual_unit014_x",
+      "manual_unit015_x"
+    ],
+    "relevant": [
+      "manual_unit037_a",
+      "manual_unit037_b"
+    ],
+    "answer": "According to manual_unit037_a, the flange bolts are torqued to 47 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "47 nm"
+    ],
+    "citations": [
+      "manual_unit037_a",
+      "manual_unit037_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 324.0,
+    "cost_usd": 0.000594,
+    "tokens_in": 990,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_038",
+    "case_id": "rag_038",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit015_x",
+      "manual_unit038_b",
+      "manual_unit016_x",
+      "manual_unit017_x",
+      "manual_unit018_x"
+    ],
+    "relevant": [
+      "manual_unit038_a",
+      "manual_unit038_b"
+    ],
+    "answer": "According to manual_unit038_a, the flange bolts are torqued to 48 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "48 nm"
+    ],
+    "citations": [
+      "manual_unit038_a",
+      "manual_unit038_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 336.0,
+    "cost_usd": 0.000625,
+    "tokens_in": 1035,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_039",
+    "case_id": "rag_039",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit018_x",
+      "manual_unit019_x",
+      "manual_unit039_a",
+      "manual_unit020_x",
+      "manual_unit021_x"
+    ],
+    "relevant": [
+      "manual_unit039_a",
+      "manual_unit039_b"
+    ],
+    "answer": "According to manual_unit039_a, the flange bolts are torqued to 49 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "49 nm"
+    ],
+    "citations": [
+      "manual_unit039_a",
+      "manual_unit039_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 348.0,
+    "cost_usd": 0.000657,
+    "tokens_in": 1080,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_040",
+    "case_id": "rag_040",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit040_a",
+      "manual_unit040_b",
+      "manual_unit021_x",
+      "manual_unit022_x",
+      "manual_unit023_x"
+    ],
+    "relevant": [
+      "manual_unit040_a",
+      "manual_unit040_b"
+    ],
+    "answer": "According to manual_unit040_a, the flange bolts are torqued to 10 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "10 nm"
+    ],
+    "citations": [
+      "manual_unit040_a",
+      "manual_unit040_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 360.0,
+    "cost_usd": 0.000688,
+    "tokens_in": 1125,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_041",
+    "case_id": "rag_041",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit024_x",
+      "manual_unit041_a",
+      "manual_unit041_b",
+      "manual_unit025_x",
+      "manual_unit026_x"
+    ],
+    "relevant": [
+      "manual_unit041_a",
+      "manual_unit041_b"
+    ],
+    "answer": "According to manual_unit041_a, the flange bolts are torqued to 11 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "11 nm"
+    ],
+    "citations": [
+      "manual_unit041_a",
+      "manual_unit041_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 372.0,
+    "cost_usd": 0.00072,
+    "tokens_in": 1170,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_042",
+    "case_id": "rag_042",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit042_a",
+      "manual_unit027_x",
+      "manual_unit028_x",
+      "manual_unit029_x",
+      "manual_unit030_x"
+    ],
+    "relevant": [
+      "manual_unit042_a",
+      "manual_unit042_b"
+    ],
+    "answer": "According to manual_unit042_a, the flange bolts are torqued to 12 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "12 nm"
+    ],
+    "citations": [
+      "manual_unit042_a",
+      "manual_unit042_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 384.0,
+    "cost_usd": 0.000594,
+    "tokens_in": 900,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_043",
+    "case_id": "rag_043",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit030_x",
+      "manual_unit031_x",
+      "manual_unit043_a",
+      "manual_unit043_b",
+      "manual_unit032_x"
+    ],
+    "relevant": [
+      "manual_unit043_a",
+      "manual_unit043_b"
+    ],
+    "answer": "According to manual_unit043_a, the flange bolts are torqued to 13 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "13 nm"
+    ],
+    "citations": [
+      "manual_unit043_a",
+      "manual_unit043_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 396.0,
+    "cost_usd": 0.000625,
+    "tokens_in": 945,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_044",
+    "case_id": "rag_044",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit033_x",
+      "manual_unit044_a",
+      "manual_unit034_x",
+      "manual_unit035_x",
+      "manual_unit036_x"
+    ],
+    "relevant": [
+      "manual_unit044_a",
+      "manual_unit044_b"
+    ],
+    "answer": "According to manual_unit044_a, the flange bolts are torqued to 14 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "14 nm"
+    ],
+    "citations": [
+      "manual_unit044_a",
+      "manual_unit044_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 468.0,
+    "cost_usd": 0.000657,
+    "tokens_in": 990,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_045",
+    "case_id": "rag_045",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit045_a",
+      "manual_unit036_x",
+      "manual_unit037_x",
+      "manual_unit038_x",
+      "manual_unit045_b"
+    ],
+    "relevant": [
+      "manual_unit045_a",
+      "manual_unit045_b"
+    ],
+    "answer": "According to manual_unit045_a, the flange bolts are torqued to 15 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "15 nm"
+    ],
+    "citations": [
+      "manual_unit045_a",
+      "manual_unit025_x"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 420.0,
+    "cost_usd": 0.000607,
+    "tokens_in": 1035,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_046",
+    "case_id": "rag_046",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit039_x",
+      "manual_unit040_x",
+      "manual_unit041_x",
+      "manual_unit046_a",
+      "manual_unit042_x"
+    ],
+    "relevant": [
+      "manual_unit046_a",
+      "manual_unit046_b"
+    ],
+    "answer": "According to manual_unit046_a, the flange bolts are torqued to 16 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "16 nm"
+    ],
+    "citations": [
+      "manual_unit046_a",
+      "manual_unit046_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 432.0,
+    "cost_usd": 0.000639,
+    "tokens_in": 1080,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_047",
+    "case_id": "rag_047",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit042_x",
+      "manual_unit047_a",
+      "manual_unit043_x",
+      "manual_unit044_x",
+      "manual_unit045_x"
+    ],
+    "relevant": [
+      "manual_unit047_a",
+      "manual_unit047_b"
+    ],
+    "answer": "According to manual_unit047_a, the flange bolts are torqued to 17 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "17 nm"
+    ],
+    "citations": [
+      "manual_unit047_a",
+      "manual_unit047_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 444.0,
+    "cost_usd": 0.00067,
+    "tokens_in": 1125,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_048",
+    "case_id": "rag_048",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit045_x",
+      "manual_unit048_b",
+      "manual_unit046_x",
+      "manual_unit047_x",
+      "manual_unit048_x"
+    ],
+    "relevant": [
+      "manual_unit048_a",
+      "manual_unit048_b"
+    ],
+    "answer": "According to manual_unit048_a, the flange bolts are torqued to 18 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "18 nm"
+    ],
+    "citations": [
+      "manual_unit048_a",
+      "manual_unit048_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 456.0,
+    "cost_usd": 0.000702,
+    "tokens_in": 1170,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_049",
+    "case_id": "rag_049",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit048_x",
+      "manual_unit049_x",
+      "manual_unit049_a",
+      "manual_unit050_x",
+      "manual_unit051_x"
+    ],
+    "relevant": [
+      "manual_unit049_a",
+      "manual_unit049_b"
+    ],
+    "answer": "According to manual_unit049_a, the flange bolts are torqued to 19 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "19 nm"
+    ],
+    "citations": [
+      "manual_unit049_a",
+      "manual_unit049_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 468.0,
+    "cost_usd": 0.000576,
+    "tokens_in": 900,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_050",
+    "case_id": "rag_050",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit050_a",
+      "manual_unit050_b",
+      "manual_unit051_x",
+      "manual_unit052_x",
+      "manual_unit053_x"
+    ],
+    "relevant": [
+      "manual_unit050_a",
+      "manual_unit050_b"
+    ],
+    "answer": "According to manual_unit050_a, the flange bolts are torqued to 20 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "20 nm"
+    ],
+    "citations": [
+      "manual_unit050_a",
+      "manual_unit050_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 180.0,
+    "cost_usd": 0.000607,
+    "tokens_in": 945,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_051",
+    "case_id": "rag_051",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit054_x",
+      "manual_unit051_a",
+      "manual_unit051_b",
+      "manual_unit055_x",
+      "manual_unit056_x"
+    ],
+    "relevant": [
+      "manual_unit051_a",
+      "manual_unit051_b"
+    ],
+    "answer": "Per manual_unit051_a, the bolts are tightened to the documented specification and the gear oil is ISO VG graded.",
+    "must_contain": [
+      "21 nm"
+    ],
+    "citations": [
+      "manual_unit051_a",
+      "manual_unit051_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 192.0,
+    "cost_usd": 0.000639,
+    "tokens_in": 990,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 0.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_052",
+    "case_id": "rag_052",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit052_a",
+      "manual_unit057_x",
+      "manual_unit058_x",
+      "manual_unit059_x",
+      "manual_unit060_x"
+    ],
+    "relevant": [
+      "manual_unit052_a",
+      "manual_unit052_b"
+    ],
+    "answer": "According to manual_unit052_a, the flange bolts are torqued to 22 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "22 nm"
+    ],
+    "citations": [
+      "manual_unit052_a",
+      "manual_unit052_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 204.0,
+    "cost_usd": 0.00067,
+    "tokens_in": 1035,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_053",
+    "case_id": "rag_053",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit060_x",
+      "manual_unit061_x",
+      "manual_unit053_a",
+      "manual_unit053_b",
+      "manual_unit062_x"
+    ],
+    "relevant": [
+      "manual_unit053_a",
+      "manual_unit053_b"
+    ],
+    "answer": "According to manual_unit053_a, the flange bolts are torqued to 23 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "23 nm"
+    ],
+    "citations": [
+      "manual_unit053_a",
+      "manual_unit053_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 216.0,
+    "cost_usd": 0.000702,
+    "tokens_in": 1080,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_054",
+    "case_id": "rag_054",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit063_x",
+      "manual_unit054_a",
+      "manual_unit064_x",
+      "manual_unit065_x",
+      "manual_unit066_x"
+    ],
+    "relevant": [
+      "manual_unit054_a",
+      "manual_unit054_b"
+    ],
+    "answer": "According to manual_unit054_a, the flange bolts are torqued to 24 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "24 nm"
+    ],
+    "citations": [
+      "manual_unit054_a",
+      "manual_unit054_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 228.0,
+    "cost_usd": 0.000652,
+    "tokens_in": 1125,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_055",
+    "case_id": "rag_055",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit055_a",
+      "manual_unit066_x",
+      "manual_unit067_x",
+      "manual_unit068_x",
+      "manual_unit055_b"
+    ],
+    "relevant": [
+      "manual_unit055_a",
+      "manual_unit055_b"
+    ],
+    "answer": "According to manual_unit055_a, the flange bolts are torqued to 25 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "25 nm"
+    ],
+    "citations": [
+      "manual_unit055_a",
+      "manual_unit055_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 300.0,
+    "cost_usd": 0.000684,
+    "tokens_in": 1170,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_056",
+    "case_id": "rag_056",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit069_x",
+      "manual_unit070_x",
+      "manual_unit071_x",
+      "manual_unit056_a",
+      "manual_unit072_x"
+    ],
+    "relevant": [
+      "manual_unit056_a",
+      "manual_unit056_b"
+    ],
+    "answer": "According to manual_unit056_a, the flange bolts are torqued to 26 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "26 nm"
+    ],
+    "citations": [
+      "manual_unit056_a",
+      "manual_unit056_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 252.0,
+    "cost_usd": 0.000558,
+    "tokens_in": 900,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_057",
+    "case_id": "rag_057",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit072_x",
+      "manual_unit057_a",
+      "manual_unit073_x",
+      "manual_unit074_x",
+      "manual_unit075_x"
+    ],
+    "relevant": [
+      "manual_unit057_a",
+      "manual_unit057_b"
+    ],
+    "answer": "According to manual_unit057_a, the flange bolts are torqued to 27 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "27 nm"
+    ],
+    "citations": [
+      "manual_unit057_a",
+      "manual_unit057_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 264.0,
+    "cost_usd": 0.000589,
+    "tokens_in": 945,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_058",
+    "case_id": "rag_058",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit075_x",
+      "manual_unit058_b",
+      "manual_unit076_x",
+      "manual_unit077_x",
+      "manual_unit078_x"
+    ],
+    "relevant": [
+      "manual_unit058_a",
+      "manual_unit058_b"
+    ],
+    "answer": "According to manual_unit058_a, the flange bolts are torqued to 28 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "28 nm"
+    ],
+    "citations": [
+      "manual_unit058_a",
+      "manual_unit058_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 276.0,
+    "cost_usd": 0.000621,
+    "tokens_in": 990,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_059",
+    "case_id": "rag_059",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit078_x",
+      "manual_unit079_x",
+      "manual_unit059_a",
+      "manual_unit080_x",
+      "manual_unit081_x"
+    ],
+    "relevant": [
+      "manual_unit059_a",
+      "manual_unit059_b"
+    ],
+    "answer": "According to manual_unit059_a, the flange bolts are torqued to 29 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "29 nm"
+    ],
+    "citations": [
+      "manual_unit059_a",
+      "manual_unit059_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 288.0,
+    "cost_usd": 0.000652,
+    "tokens_in": 1035,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_060",
+    "case_id": "rag_060",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit060_a",
+      "manual_unit060_b",
+      "manual_unit081_x",
+      "manual_unit082_x",
+      "manual_unit083_x"
+    ],
+    "relevant": [
+      "manual_unit060_a",
+      "manual_unit060_b"
+    ],
+    "answer": "According to manual_unit060_a, the flange bolts are torqued to 30 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "30 nm"
+    ],
+    "citations": [
+      "manual_unit060_a",
+      "manual_unit060_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 300.0,
+    "cost_usd": 0.000684,
+    "tokens_in": 1080,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_061",
+    "case_id": "rag_061",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit084_x",
+      "manual_unit061_a",
+      "manual_unit061_b",
+      "manual_unit085_x",
+      "manual_unit086_x"
+    ],
+    "relevant": [
+      "manual_unit061_a",
+      "manual_unit061_b"
+    ],
+    "answer": "According to manual_unit061_a, the flange bolts are torqued to 31 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "31 nm"
+    ],
+    "citations": [
+      "manual_unit061_a",
+      "manual_unit061_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 312.0,
+    "cost_usd": 0.000715,
+    "tokens_in": 1125,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_062",
+    "case_id": "rag_062",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit062_a",
+      "manual_unit087_x",
+      "manual_unit088_x",
+      "manual_unit089_x",
+      "manual_unit090_x"
+    ],
+    "relevant": [
+      "manual_unit062_a",
+      "manual_unit062_b"
+    ],
+    "answer": "According to manual_unit062_a, the flange bolts are torqued to 32 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "32 nm"
+    ],
+    "citations": [
+      "manual_unit062_a",
+      "manual_unit062_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 324.0,
+    "cost_usd": 0.000747,
+    "tokens_in": 1170,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_063",
+    "case_id": "rag_063",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit090_x",
+      "manual_unit091_x",
+      "manual_unit063_a",
+      "manual_unit063_b",
+      "manual_unit092_x"
+    ],
+    "relevant": [
+      "manual_unit063_a",
+      "manual_unit063_b"
+    ],
+    "answer": "I do not have enough information to answer that.",
+    "must_contain": [
+      "33 nm"
+    ],
+    "citations": [],
+    "refused": true,
+    "unanswerable": false,
+    "latency_ms": 336.0,
+    "cost_usd": 0.00054,
+    "tokens_in": 900,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 0.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_064",
+    "case_id": "rag_064",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit093_x",
+      "manual_unit064_a",
+      "manual_unit094_x",
+      "manual_unit095_x",
+      "manual_unit096_x"
+    ],
+    "relevant": [
+      "manual_unit064_a",
+      "manual_unit064_b"
+    ],
+    "answer": "According to manual_unit064_a, the flange bolts are torqued to 34 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "34 nm"
+    ],
+    "citations": [
+      "manual_unit064_a",
+      "manual_unit020_x"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 348.0,
+    "cost_usd": 0.000571,
+    "tokens_in": 945,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_065",
+    "case_id": "rag_065",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit065_a",
+      "manual_unit096_x",
+      "manual_unit097_x",
+      "manual_unit098_x",
+      "manual_unit065_b"
+    ],
+    "relevant": [
+      "manual_unit065_a",
+      "manual_unit065_b"
+    ],
+    "answer": "According to manual_unit065_a, the flange bolts are torqued to 35 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "35 nm"
+    ],
+    "citations": [
+      "manual_unit065_a",
+      "manual_unit065_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 360.0,
+    "cost_usd": 0.000603,
+    "tokens_in": 990,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_066",
+    "case_id": "rag_066",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit099_x",
+      "manual_unit000_x",
+      "manual_unit001_x",
+      "manual_unit066_a",
+      "manual_unit002_x"
+    ],
+    "relevant": [
+      "manual_unit066_a",
+      "manual_unit066_b"
+    ],
+    "answer": "According to manual_unit066_a, the flange bolts are torqued to 36 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "36 nm"
+    ],
+    "citations": [
+      "manual_unit066_a",
+      "manual_unit066_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 432.0,
+    "cost_usd": 0.000634,
+    "tokens_in": 1035,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_067",
+    "case_id": "rag_067",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit002_x",
+      "manual_unit067_a",
+      "manual_unit003_x",
+      "manual_unit004_x",
+      "manual_unit005_x"
+    ],
+    "relevant": [
+      "manual_unit067_a",
+      "manual_unit067_b"
+    ],
+    "answer": "According to manual_unit067_a, the flange bolts are torqued to 37 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "37 nm"
+    ],
+    "citations": [
+      "manual_unit067_a",
+      "manual_unit067_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 384.0,
+    "cost_usd": 0.000666,
+    "tokens_in": 1080,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_068",
+    "case_id": "rag_068",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit005_x",
+      "manual_unit068_b",
+      "manual_unit006_x",
+      "manual_unit007_x",
+      "manual_unit008_x"
+    ],
+    "relevant": [
+      "manual_unit068_a",
+      "manual_unit068_b"
+    ],
+    "answer": "According to manual_unit068_a, the flange bolts are torqued to 38 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "38 nm"
+    ],
+    "citations": [
+      "manual_unit068_a",
+      "manual_unit068_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 396.0,
+    "cost_usd": 0.000697,
+    "tokens_in": 1125,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_069",
+    "case_id": "rag_069",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit008_x",
+      "manual_unit009_x",
+      "manual_unit069_a",
+      "manual_unit010_x",
+      "manual_unit011_x"
+    ],
+    "relevant": [
+      "manual_unit069_a",
+      "manual_unit069_b"
+    ],
+    "answer": "According to manual_unit069_a, the flange bolts are torqued to 39 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "39 nm"
+    ],
+    "citations": [
+      "manual_unit069_a",
+      "manual_unit069_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 408.0,
+    "cost_usd": 0.000729,
+    "tokens_in": 1170,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_070",
+    "case_id": "rag_070",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit070_a",
+      "manual_unit070_b",
+      "manual_unit011_x",
+      "manual_unit012_x",
+      "manual_unit013_x"
+    ],
+    "relevant": [
+      "manual_unit070_a",
+      "manual_unit070_b"
+    ],
+    "answer": "According to manual_unit070_a, the flange bolts are torqued to 40 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "40 nm"
+    ],
+    "citations": [
+      "manual_unit070_a",
+      "manual_unit070_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 420.0,
+    "cost_usd": 0.000603,
+    "tokens_in": 900,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_071",
+    "case_id": "rag_071",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit014_x",
+      "manual_unit071_a",
+      "manual_unit071_b",
+      "manual_unit015_x",
+      "manual_unit016_x"
+    ],
+    "relevant": [
+      "manual_unit071_a",
+      "manual_unit071_b"
+    ],
+    "answer": "According to manual_unit071_a, the flange bolts are torqued to 41 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "41 nm"
+    ],
+    "citations": [
+      "manual_unit071_a",
+      "manual_unit071_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 432.0,
+    "cost_usd": 0.000634,
+    "tokens_in": 945,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_072",
+    "case_id": "rag_072",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit072_a",
+      "manual_unit017_x",
+      "manual_unit018_x",
+      "manual_unit019_x",
+      "manual_unit020_x"
+    ],
+    "relevant": [
+      "manual_unit072_a",
+      "manual_unit072_b"
+    ],
+    "answer": "According to manual_unit072_a, the flange bolts are torqued to 42 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "42 nm"
+    ],
+    "citations": [
+      "manual_unit072_a",
+      "manual_unit072_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 444.0,
+    "cost_usd": 0.000585,
+    "tokens_in": 990,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_073",
+    "case_id": "rag_073",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit020_x",
+      "manual_unit021_x",
+      "manual_unit073_a",
+      "manual_unit073_b",
+      "manual_unit022_x"
+    ],
+    "relevant": [
+      "manual_unit073_a",
+      "manual_unit073_b"
+    ],
+    "answer": "According to manual_unit073_a, the flange bolts are torqued to 43 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "43 nm"
+    ],
+    "citations": [
+      "manual_unit073_a",
+      "manual_unit073_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 456.0,
+    "cost_usd": 0.000616,
+    "tokens_in": 1035,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_074",
+    "case_id": "rag_074",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit023_x",
+      "manual_unit074_a",
+      "manual_unit024_x",
+      "manual_unit025_x",
+      "manual_unit026_x"
+    ],
+    "relevant": [
+      "manual_unit074_a",
+      "manual_unit074_b"
+    ],
+    "answer": "Per manual_unit074_a, the bolts are tightened to the documented specification and the gear oil is ISO VG graded.",
+    "must_contain": [
+      "44 nm"
+    ],
+    "citations": [
+      "manual_unit074_a",
+      "manual_unit074_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 468.0,
+    "cost_usd": 0.000648,
+    "tokens_in": 1080,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 0.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_075",
+    "case_id": "rag_075",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit075_a",
+      "manual_unit026_x",
+      "manual_unit027_x",
+      "manual_unit028_x",
+      "manual_unit075_b"
+    ],
+    "relevant": [
+      "manual_unit075_a",
+      "manual_unit075_b"
+    ],
+    "answer": "According to manual_unit075_a, the flange bolts are torqued to 45 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "45 nm"
+    ],
+    "citations": [
+      "manual_unit075_a",
+      "manual_unit075_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 180.0,
+    "cost_usd": 0.000679,
+    "tokens_in": 1125,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_076",
+    "case_id": "rag_076",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit029_x",
+      "manual_unit030_x",
+      "manual_unit031_x",
+      "manual_unit076_a",
+      "manual_unit032_x"
+    ],
+    "relevant": [
+      "manual_unit076_a",
+      "manual_unit076_b"
+    ],
+    "answer": "According to manual_unit076_a, the flange bolts are torqued to 46 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "46 nm"
+    ],
+    "citations": [
+      "manual_unit076_a",
+      "manual_unit076_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 192.0,
+    "cost_usd": 0.000711,
+    "tokens_in": 1170,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_077",
+    "case_id": "rag_077",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit032_x",
+      "manual_unit077_a",
+      "manual_unit033_x",
+      "manual_unit034_x",
+      "manual_unit035_x"
+    ],
+    "relevant": [
+      "manual_unit077_a",
+      "manual_unit077_b"
+    ],
+    "answer": "According to manual_unit077_a, the flange bolts are torqued to 47 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "47 nm"
+    ],
+    "citations": [
+      "manual_unit077_a",
+      "manual_unit077_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 264.0,
+    "cost_usd": 0.000585,
+    "tokens_in": 900,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_078",
+    "case_id": "rag_078",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit035_x",
+      "manual_unit078_b",
+      "manual_unit036_x",
+      "manual_unit037_x",
+      "manual_unit038_x"
+    ],
+    "relevant": [
+      "manual_unit078_a",
+      "manual_unit078_b"
+    ],
+    "answer": "According to manual_unit078_a, the flange bolts are torqued to 48 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "48 nm"
+    ],
+    "citations": [
+      "manual_unit078_a",
+      "manual_unit078_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 216.0,
+    "cost_usd": 0.000616,
+    "tokens_in": 945,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_079",
+    "case_id": "rag_079",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit038_x",
+      "manual_unit039_x",
+      "manual_unit079_a",
+      "manual_unit040_x",
+      "manual_unit041_x"
+    ],
+    "relevant": [
+      "manual_unit079_a",
+      "manual_unit079_b"
+    ],
+    "answer": "According to manual_unit079_a, the flange bolts are torqued to 49 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "49 nm"
+    ],
+    "citations": [
+      "manual_unit079_a",
+      "manual_unit079_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 228.0,
+    "cost_usd": 0.000648,
+    "tokens_in": 990,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_080",
+    "case_id": "rag_080",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit080_a",
+      "manual_unit080_b",
+      "manual_unit041_x",
+      "manual_unit042_x",
+      "manual_unit043_x"
+    ],
+    "relevant": [
+      "manual_unit080_a",
+      "manual_unit080_b"
+    ],
+    "answer": "According to manual_unit080_a, the flange bolts are torqued to 10 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "10 nm"
+    ],
+    "citations": [
+      "manual_unit080_a",
+      "manual_unit080_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 240.0,
+    "cost_usd": 0.000679,
+    "tokens_in": 1035,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_081",
+    "case_id": "rag_081",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit044_x",
+      "manual_unit081_a",
+      "manual_unit081_b",
+      "manual_unit045_x",
+      "manual_unit046_x"
+    ],
+    "relevant": [
+      "manual_unit081_a",
+      "manual_unit081_b"
+    ],
+    "answer": "According to manual_unit081_a, the flange bolts are torqued to 11 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "11 nm"
+    ],
+    "citations": [
+      "manual_unit081_a",
+      "manual_unit081_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 252.0,
+    "cost_usd": 0.00063,
+    "tokens_in": 1080,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_082",
+    "case_id": "rag_082",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit082_a",
+      "manual_unit047_x",
+      "manual_unit048_x",
+      "manual_unit049_x",
+      "manual_unit050_x"
+    ],
+    "relevant": [
+      "manual_unit082_a",
+      "manual_unit082_b"
+    ],
+    "answer": "According to manual_unit082_a, the flange bolts are torqued to 12 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "12 nm"
+    ],
+    "citations": [
+      "manual_unit082_a",
+      "manual_unit082_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 264.0,
+    "cost_usd": 0.000661,
+    "tokens_in": 1125,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_083",
+    "case_id": "rag_083",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit050_x",
+      "manual_unit051_x",
+      "manual_unit083_a",
+      "manual_unit083_b",
+      "manual_unit052_x"
+    ],
+    "relevant": [
+      "manual_unit083_a",
+      "manual_unit083_b"
+    ],
+    "answer": "According to manual_unit083_a, the flange bolts are torqued to 13 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "13 nm"
+    ],
+    "citations": [
+      "manual_unit083_a",
+      "manual_unit015_x"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 276.0,
+    "cost_usd": 0.000693,
+    "tokens_in": 1170,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_084",
+    "case_id": "rag_084",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit053_x",
+      "manual_unit084_a",
+      "manual_unit054_x",
+      "manual_unit055_x",
+      "manual_unit056_x"
+    ],
+    "relevant": [
+      "manual_unit084_a",
+      "manual_unit084_b"
+    ],
+    "answer": "According to manual_unit084_a, the flange bolts are torqued to 14 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "14 nm"
+    ],
+    "citations": [
+      "manual_unit084_a",
+      "manual_unit084_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 288.0,
+    "cost_usd": 0.000567,
+    "tokens_in": 900,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_085",
+    "case_id": "rag_085",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit085_a",
+      "manual_unit056_x",
+      "manual_unit057_x",
+      "manual_unit058_x",
+      "manual_unit085_b"
+    ],
+    "relevant": [
+      "manual_unit085_a",
+      "manual_unit085_b"
+    ],
+    "answer": "According to manual_unit085_a, the flange bolts are torqued to 15 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "15 nm"
+    ],
+    "citations": [
+      "manual_unit085_a",
+      "manual_unit085_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 300.0,
+    "cost_usd": 0.000598,
+    "tokens_in": 945,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_086",
+    "case_id": "rag_086",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit059_x",
+      "manual_unit060_x",
+      "manual_unit061_x",
+      "manual_unit086_a",
+      "manual_unit062_x"
+    ],
+    "relevant": [
+      "manual_unit086_a",
+      "manual_unit086_b"
+    ],
+    "answer": "According to manual_unit086_a, the flange bolts are torqued to 16 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "16 nm"
+    ],
+    "citations": [
+      "manual_unit086_a",
+      "manual_unit086_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 312.0,
+    "cost_usd": 0.00063,
+    "tokens_in": 990,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_087",
+    "case_id": "rag_087",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit062_x",
+      "manual_unit087_a",
+      "manual_unit063_x",
+      "manual_unit064_x",
+      "manual_unit065_x"
+    ],
+    "relevant": [
+      "manual_unit087_a",
+      "manual_unit087_b"
+    ],
+    "answer": "According to manual_unit087_a, the flange bolts are torqued to 17 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "17 nm"
+    ],
+    "citations": [
+      "manual_unit087_a",
+      "manual_unit087_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 324.0,
+    "cost_usd": 0.000661,
+    "tokens_in": 1035,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_088",
+    "case_id": "rag_088",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit065_x",
+      "manual_unit088_b",
+      "manual_unit066_x",
+      "manual_unit067_x",
+      "manual_unit068_x"
+    ],
+    "relevant": [
+      "manual_unit088_a",
+      "manual_unit088_b"
+    ],
+    "answer": "According to manual_unit088_a, the flange bolts are torqued to 18 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "18 nm"
+    ],
+    "citations": [
+      "manual_unit088_a",
+      "manual_unit088_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 396.0,
+    "cost_usd": 0.000693,
+    "tokens_in": 1080,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_089",
+    "case_id": "rag_089",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit068_x",
+      "manual_unit069_x",
+      "manual_unit089_a",
+      "manual_unit070_x",
+      "manual_unit071_x"
+    ],
+    "relevant": [
+      "manual_unit089_a",
+      "manual_unit089_b"
+    ],
+    "answer": "According to manual_unit089_a, the flange bolts are torqued to 19 nm in a star pattern. The approved lubricant is a gear oil replaced on the documented interval.",
+    "must_contain": [
+      "19 nm"
+    ],
+    "citations": [
+      "manual_unit089_a",
+      "manual_unit089_b"
+    ],
+    "refused": false,
+    "unanswerable": false,
+    "latency_ms": 348.0,
+    "cost_usd": 0.000724,
+    "tokens_in": 1125,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_090",
+    "case_id": "rag_090",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit090_x",
+      "manual_unit091_x",
+      "manual_unit092_x",
+      "manual_unit093_x",
+      "manual_unit094_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 360.0,
+    "cost_usd": 0.000675,
+    "tokens_in": 1170,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_091",
+    "case_id": "rag_091",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit091_x",
+      "manual_unit092_x",
+      "manual_unit093_x",
+      "manual_unit094_x",
+      "manual_unit095_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 372.0,
+    "cost_usd": 0.000549,
+    "tokens_in": 900,
+    "tokens_out": 66,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_092",
+    "case_id": "rag_092",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit092_x",
+      "manual_unit093_x",
+      "manual_unit094_x",
+      "manual_unit095_x",
+      "manual_unit096_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 384.0,
+    "cost_usd": 0.00058,
+    "tokens_in": 945,
+    "tokens_out": 72,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_093",
+    "case_id": "rag_093",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit093_x",
+      "manual_unit094_x",
+      "manual_unit095_x",
+      "manual_unit096_x",
+      "manual_unit097_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 396.0,
+    "cost_usd": 0.000612,
+    "tokens_in": 990,
+    "tokens_out": 78,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_094",
+    "case_id": "rag_094",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit094_x",
+      "manual_unit095_x",
+      "manual_unit096_x",
+      "manual_unit097_x",
+      "manual_unit098_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 408.0,
+    "cost_usd": 0.000643,
+    "tokens_in": 1035,
+    "tokens_out": 84,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_095",
+    "case_id": "rag_095",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit095_x",
+      "manual_unit096_x",
+      "manual_unit097_x",
+      "manual_unit098_x",
+      "manual_unit099_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 420.0,
+    "cost_usd": 0.000675,
+    "tokens_in": 1080,
+    "tokens_out": 90,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_096",
+    "case_id": "rag_096",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit096_x",
+      "manual_unit097_x",
+      "manual_unit098_x",
+      "manual_unit099_x",
+      "manual_unit000_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 432.0,
+    "cost_usd": 0.000706,
+    "tokens_in": 1125,
+    "tokens_out": 96,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_097",
+    "case_id": "rag_097",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit097_x",
+      "manual_unit098_x",
+      "manual_unit099_x",
+      "manual_unit000_x",
+      "manual_unit001_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 444.0,
+    "cost_usd": 0.000738,
+    "tokens_in": 1170,
+    "tokens_out": 102,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_098",
+    "case_id": "rag_098",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit098_x",
+      "manual_unit099_x",
+      "manual_unit000_x",
+      "manual_unit001_x",
+      "manual_unit002_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 456.0,
+    "cost_usd": 0.000612,
+    "tokens_in": 900,
+    "tokens_out": 108,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  },
+  {
+    "trace_id": "demo-2026-01-rag-rag_099",
+    "case_id": "rag_099",
+    "app": "rag",
+    "retrieved": [
+      "manual_unit099_x",
+      "manual_unit000_x",
+      "manual_unit001_x",
+      "manual_unit002_x",
+      "manual_unit003_x"
+    ],
+    "relevant": [],
+    "answer": "I don't know -- the retrieved documents do not contain the warranty period for this equipment unit.",
+    "must_contain": [],
+    "citations": [],
+    "refused": true,
+    "unanswerable": true,
+    "latency_ms": 528.0,
+    "cost_usd": 0.000562,
+    "tokens_in": 945,
+    "tokens_out": 60,
+    "error": null,
+    "struct_valid": true,
+    "sql_match": 0.0,
+    "task_success": 1.0,
+    "repaired": false
+  }
+]
