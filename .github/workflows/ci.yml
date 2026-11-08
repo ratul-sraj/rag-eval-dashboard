@@ -1,0 +1,59 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: tests + gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install -e .
+
+      - name: Unit tests
+        run: python -m pytest -q
+
+      - name: Regression gate (passing sample)
+        run: |
+          python -m evalkit.gate \
+            --baseline samples/baseline.json \
+            --current samples/current.json \
+            --config gate.yaml \
+            --markdown-out artifacts/gate-pass.md
+
+      - name: Regression gate (deliberately regressed sample must FAIL)
+        run: |
+          if python -m evalkit.gate \
+               --baseline samples/baseline.json \
+               --current samples/regressed.json \
+               --config gate.yaml \
+               --markdown-out artifacts/gate-regressed.md; then
+            echo "::error::expected the gate to fail on the regressed sample, but it passed"
+            exit 1
+          else
+            echo "gate correctly returned a non-zero exit code on the regressed sample"
+          fi
+
+      - name: Demo evaluation runs end to end
+        run: python -m evalkit run --out artifacts/ci-run --run-id ci
+
+      - name: Upload gate reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate-reports
+          path: artifacts/gate-*.md
+          if-no-files-found: ignore
