@@ -1,0 +1,22 @@
+{
+  "run_id": "regressed",
+  "created_at": "2026-11-08T05:27:09.856560+00:00",
+  "source": "samples/make_gate_samples.py (real demo run)",
+  "metrics": {
+    "recall@5": 0.4,
+    "mrr": 0.18666666666666668,
+    "citation_precision": 0.9277777777777778,
+    "key_fact_containment": 0.9222222222222223,
+    "sql_execution_match": 0.66,
+    "valid_sql_rate": 0.78,
+    "sql_repair_rate": 0.3125,
+    "task_success_rate": 0.795,
+    "refusal_accuracy": 0.87,
+    "latency_p50_ms": 355.0,
+    "latency_p95_ms": 504.04999999999995,
+    "latency_p99_ms": 565.2999999999997,
+    "error_rate": 0.11,
+    "cost_total_usd": 0.13476500000000002,
+    "token_efficiency": 60.74067577345583
+  }
+}
